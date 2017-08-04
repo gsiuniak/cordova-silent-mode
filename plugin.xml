@@ -6,7 +6,7 @@
 
     <description>The plugin allow to verify if the phone is currently in silent mode.</description>
 
-    <repo>https://github.com/salesfloor/cordova-silent-mode.git</repo>
+    <repo>https://github.com/khevamann/cordova-silent-mode.git</repo>
 
     <keywords>silent mode</keywords>
 
@@ -40,7 +40,6 @@
         <header-file src="src/ios/CDVSilentModePlugin.h" />
         <source-file src="src/ios/CDVSilentModePlugin.m" />
 
-        <!-- <asset src="www/mute.caf" target="res/mute.caf" /> -->
         <resource-file src="www/mute.caf" target="mute.caf" />
     </platform>
 
