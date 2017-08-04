@@ -22,7 +22,7 @@
       "version": ">=3.6.0"
     }
   ],
-  "author": "francois-p-peloquin",
+  "author": "khevamann",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/khevamann/cordova-silent-mode/issues"
