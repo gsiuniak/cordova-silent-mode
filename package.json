@@ -3,14 +3,14 @@
   "version": "0.9.0",
   "description": "Check if iOS device is in silent mode.",
   "cordova": {
-    "id": "com.francois-p-peloquin.silentmodeplugin",
+    "id": "com.khevamann.silentmodeplugin",
     "platforms": [
       "ios"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/francois-p-peloquin/cordova-silent-mode.git"
+    "url": "git+https://github.com/khevamann/cordova-silent-mode.git"
   },
   "keywords": [
     "ecosystem:cordova",
@@ -22,10 +22,10 @@
       "version": ">=3.6.0"
     }
   ],
-  "author": "francois-p-peloquin",
+  "author": "khevamann",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/francois-p-peloquin/cordova-silent-mode/issues"
+    "url": "https://github.com/khevamann/cordova-silent-mode/issues"
   },
-  "homepage": "https://github.com/francois-p-peloquin/cordova-silent-mode#readme"
+  "homepage": "https://github.com/khevamann/cordova-silent-mode#readme"
 }
