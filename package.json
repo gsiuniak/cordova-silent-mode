@@ -1,5 +1,5 @@
 {
-  "name": "cordova-silent-mode-plugin",
+  "name": "cordova-silent-mode",
   "version": "0.9.0",
   "description": "Check if iOS device is in silent mode.",
   "cordova": {
