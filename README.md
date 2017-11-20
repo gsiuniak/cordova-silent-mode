@@ -7,7 +7,7 @@ This plugin determines is an iOS device is on silent mode or not.
 ## Installation
 
 ```bash
-cordova plugin add https://github.com/gsiuniak/cordova-silient-mode
+cordova plugin add https://github.com/gsiuniak/cordova-silent-mode
 ```
 
 ## Usage
