@@ -6,7 +6,7 @@
 
     <description>The plugin allow to verify if the phone is currently in silent mode.</description>
 
-    <repo>https://github.com/gsiuniak/cordova-silient-mode.git</repo>
+    <repo>https://github.com/gsiuniak/cordova-silent-mode.git</repo>
 
     <keywords>ios silent mode ringer</keywords>
 
