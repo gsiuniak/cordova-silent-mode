@@ -27,7 +27,7 @@ function SilentMode() {
 }
 
 SilentMode.prototype.init = function(successCallback, errorCallback) {
-  cordova.exec(resolve, reject, "SilentMode", "init", []);
+  cordova.exec(successCallback, errorCallback, "SilentMode", "init", []);
 }
 
 SilentMode.prototype.isMuted = function(successCallback, errorCallback) {
