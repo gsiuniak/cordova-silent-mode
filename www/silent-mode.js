@@ -27,11 +27,16 @@ function SilentMode() {
 }
 
 SilentMode.prototype.init = function(successCallback, errorCallback) {
-  cordova.exec(successCallback, errorCallback, "SilentMode", "init", []);
+  return new Promise(function(resolve, reject) {
+    cordova.exec(resolve, reject, "SilentMode", "init", []);
+  });
 }
 
 SilentMode.prototype.isMuted = function(successCallback, errorCallback) {
-  cordova.exec(successCallback, errorCallback, "SilentMode", "isMuted", []);
+  SilentMode.init()
+    .then(function(){
+      cordova.exec(successCallback, errorCallback, "SilentMode", "isMuted", []);
+    })
 }
 
 module.exports = new SilentMode();

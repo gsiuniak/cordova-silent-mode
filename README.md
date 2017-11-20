@@ -18,12 +18,12 @@ SilentMode.init();
 
 // Function with callbacks to determine whether or not device is muted - Will only run ONCE //
 SilentMode.isMuted(
-	function onMuted() { 
-		console.log('Device ringer is OFF'); 
-	}, 
-	function onUnmuted() {  
-		console.log('Device ringer is ON'); 
-	});
+  function onMuted() { 
+    console.log('Device ringer is OFF'); 
+  }, 
+  function onUnmuted() {  
+    console.log('Device ringer is ON'); 
+  });
 ```
 
 ## Supported Platforms
