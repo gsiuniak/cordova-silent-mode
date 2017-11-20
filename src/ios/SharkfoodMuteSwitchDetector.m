@@ -132,6 +132,7 @@ void SharkfoodSoundMuteNotificationCompletionProc(SystemSoundID  ssID,void* clie
 
 -(void)loopCheck{
     if (!self.isPaused){
+        self.isPaused = true;
         self.interval = [NSDate timeIntervalSinceReferenceDate];
         self.isPlaying = YES;
         AudioServicesPlaySystemSound(self.soundId);

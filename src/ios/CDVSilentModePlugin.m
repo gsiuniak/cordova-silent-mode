@@ -31,7 +31,7 @@
 - (void) init:(CDVInvokedUrlCommand*)command{
   CDVPluginResult* pluginResult = nil;
 
-  self.detector = [SharkfoodMuteSwitchDetector shared];
+  self.detector = [[SharkfoodMuteSwitchDetector alloc] init];
 
   if (self.detector != nil) {
     pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
